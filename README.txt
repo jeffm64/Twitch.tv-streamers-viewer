@@ -1,0 +1,1 @@
+This viewer will show a specific group of twitch streamers. It will tell you if they are online, offline, or have closed their accounts. If they are online it will tell you what they are playing.

@@ -1,0 +1,187 @@
+
+/*//////////////////////////////////////
+	UNIVERSAL
+//////////////////////////////////////*/
+
+* {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	font-weight: normal;
+	text-decoration: none;
+	box-sizing: border-box;
+	font-family: "League Gothic", Times, "Times New Roman", serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	padding: 0;
+	margin: 0;
+	font-weight: normal;
+}
+
+img,
+video {
+	max-width: 100%;
+}
+
+input, button, select, submit {
+	border: none;
+}
+
+/* ---- Float clearfix ---- */
+
+.clearfix::after {
+		content: " ";
+		display: table;
+		clear: both;	
+}
+
+
+
+/*//////////////////////////////////////
+	TEXT TRANSFORM
+//////////////////////////////////////*/
+
+/*Uppercase*/
+h1,
+.online,
+.offline,
+.closed {
+  text-transform: uppercase;
+}
+
+/*Lowercase*/
+
+
+
+/*//////////////////////////////////////
+	LETTER SPACING
+//////////////////////////////////////*/
+
+
+
+/*//////////////////////////////////////
+	FONTS
+//////////////////////////////////////*/
+
+/*Trajan*/
+h1 {
+  font-family: Trajan;
+}
+
+
+
+/*//////////////////////////////////////
+	COLORS
+//////////////////////////////////////*/
+
+/*color green*/
+.online {
+  color: #38cc0a;
+  text-shadow: -1px 0px 6px rgba(49, 255, 17, 1);
+}
+
+/*color red*/
+.offline {
+  color: #f51616;
+  text-shadow: -1px 0px 6px rgba(255, 22, 22, 1);
+}
+
+/*color purple*/
+.closed {
+  color: #6d1ce6;
+  text-shadow: -1px 0px 6px rgba(121, 5, 255, 1);
+}
+
+/*color white*/
+h1,
+.stream-name,
+.stream-game {
+  color: #FFFFFF;
+}
+
+/*background paper*/
+body {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e9ece5+0,d3e6ea+100 */
+background: #e9ece5; /* Old browsers */
+background: -moz-linear-gradient(top, #e9ece5 0%, #d3e6ea 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #e9ece5 0%,#d3e6ea 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #e9ece5 0%,#d3e6ea 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e9ece5', endColorstr='#d3e6ea',GradientType=0 ); /* IE6-9 */
+}
+
+/*background soft light blue*/
+h1 {
+  background-color: #c0dfd9;
+}
+
+/*background light gray*/
+.streamer-online {
+  background-color: #b3c2bf;
+}
+
+/*background dark gray*/
+.streamer-offline,
+.streamer-closed {
+  background-color: #3b3a36;
+}
+
+
+
+/*//////////////////////////////////////
+	SITE
+//////////////////////////////////////*/
+
+.main-container {
+  margin-top: 30px;
+}
+
+.main-content {
+  max-width: 1000px;
+  background-color: gray;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: left;
+  padding: 10px 0 10px 25px;
+}
+
+.streamer-online,
+.streamer-offline,
+.streamer-closed {
+  padding: 20px;
+  border-bottom: solid 2px #c0dfd9;
+}
+
+.stream-img {
+  width: 70px;
+  padding-right: 5px;
+}
+
+.stream-name {
+  font-size: 30px;
+}
+
+.online,
+.offline,
+.closed {
+  display: block;
+  padding: 20px 0;
+  font-size: 32px;
+}
+
+.stream-game {
+  font-size: 21px;
+}
+
+
+
+
